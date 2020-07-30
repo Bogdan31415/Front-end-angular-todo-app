@@ -1,0 +1,17 @@
+<!-- Display Posts-->
+<div class="row project" *ngFor="let  project of projects">
+  <!-- Section to Display Post Information-->
+  <div class="col-md-11">
+      <span> Project by <a class="username" routerLink="/user/{{project.userName}}">{{project.userName}}</a></span>
+    <hr />
+    <div class="project-title">
+      <a class="postname">{{project.projectName}}</a>
+    </div>
+    <hr />
+    <span>
+      <div style="text-align: center">
+        <button class="btnCreateProject" (click)="goToCreateProject()">Create Post</button>
+    </div>
+    </span>
+  </div>
+</div>

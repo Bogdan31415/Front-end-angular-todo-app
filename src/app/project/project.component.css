@@ -1,0 +1,55 @@
+.project-title {
+  font-size: 28px;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.project-title:hover {
+  opacity: 0.6;
+}
+
+.project-url {
+  color: black;
+}
+
+.username{
+  color: gray;
+}
+
+.project-text{
+  margin-top: 10px;
+}
+
+.project{
+  --post-line-color: #ccc;
+  border: 1px solid #ccc;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  background-color: rgba(255,255,255,0.8);
+  color: #878A8C;
+  position: relative;
+  border-radius: 4px;
+  padding:5px;
+}
+.btnCreateProject {
+  background-color: #0079D3;
+  border-color: #0079D3;
+  color: aliceblue;
+  fill: #0079D3;
+  border: 1px solid;
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 3px 16px;
+  opacity: 1;
+  width: 288px;
+  height: 34px;
+}

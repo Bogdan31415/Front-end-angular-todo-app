@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <hr />
+    <div class="create-project-container col-md-9">
+      <form class="project-form" [formGroup]="createProjectForm" (ngSubmit)="createProject()">
+        <div class="form-group">
+          <div class="create-project-heading">Create Project</div>
+          <hr />
+          <input type="text" [formControlName]="'projectName'" class="form-control" style="margin-top: 5px"
+                 placeholder="Title">
+          <span>
+              <div style="margin-top: 5px" class="float-right">
+                <button (click)="discardProject()" class="btnDiscard">Back</button>
+                <button class="btnCreateProject">Add project</button>
+              </div>
+            </span>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
